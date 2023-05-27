@@ -12,6 +12,10 @@ a{
     color: inherit;
 }
 
+input{
+    text-indent: 1em;
+}
+
 /*HEADER*/
     /*BARRA SUPERIOR*/
     #barra-superior{
@@ -197,13 +201,13 @@ a{
         border-radius: 15px;
         height: 40px;
         width: 340px;
+        color: #ffffff;
     }
     #contacto input::placeholder {
         font-size: 9px;
         line-height: 11px;
         text-align: left;
         color: #FFFFFF;
-        padding-left: 15px;
     }
     #contacto button {
         margin-top: 40px;
@@ -266,7 +270,6 @@ footer{
         font-size: 9px;
         font-weight: 400;
         line-height: 11px;
-        padding-left: 8px;
         color: #A0A0A0;
 
     }
